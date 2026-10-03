@@ -4,10 +4,18 @@ Reproduce an annual country dataset and a 1920 x 1080 bubble-chart animation
 from a bundled NASA GISTEMP v4 snapshot. The board contains 191 fixed country
 slots; anomalies are relative to **1951-1980**, in degrees Celsius.
 
-![2025 example](examples/frame-2025.png)
+[![Animated temperature anomalies preview, 1880-2025](examples/temperature-anomalies-preview.gif)](results/temperature-anomalies-gistemp-1880-2025-preview.mp4)
 
-**Finished result:** [Watch the rendered 1880-2025 video](results/temperature-anomalies-gistemp-1880-2025-smooth.mp4)
-(1080p H.264, 30 fps, 62.4 seconds).
+**Smaller video:** [Watch the complete 1880-2025 animation](results/temperature-anomalies-gistemp-1880-2025-preview.mp4)
+(720p H.264, 15 fps, 62.4 seconds, 7.8 MB).
+
+**Full-quality video:** [Download the original 1080p video](https://github.com/Attila121/Temperature-Anomalies/raw/refs/heads/main/results/temperature-anomalies-gistemp-1880-2025-smooth.mp4)
+(1080p H.264, 30 fps, 62.4 seconds, 67.4 MB).
+The original is also available [locally in results/](results/temperature-anomalies-gistemp-1880-2025-smooth.mp4).
+
+The inline GIF is a compact 640 x 360, 2 fps preview of the full animation.
+Use either MP4 for clearer labels and smoother motion, or view the
+[2025 still frame](examples/frame-2025.png).
 
 This folder is a standalone release candidate. It includes the input data,
 derived annual CSV, finished video, calculation and rendering code, bundled fonts, tests and
@@ -103,8 +111,8 @@ paths and external input filenames, rather than local account paths.
 | `project_paths.py` | Portable default paths and metadata paths |
 | `reference_data.py`, `compare_frames.py` | Optional historical-table adapter and explicit image comparison |
 | `assets/fonts/` | Unmodified DejaVu Sans fonts and their license |
-| `examples/` | Public 2025 frame and its render metadata |
-| `results/` | Finished 1880-2025 video, included in the public release inventory |
+| `examples/` | Animated README preview, public 2025 frame and its render metadata |
+| `results/` | Full-quality 1880-2025 video and smaller 720p copy, included in the public release inventory |
 | `tests/` | Calculation, input, rendering and animation checks |
 | `release-manifest.json`, `verify_release.py` | SHA-256 integrity inventory and checker |
 

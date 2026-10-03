@@ -88,8 +88,8 @@
       "sha256": "b3d90d126559275fa3cd6e96ea18a7ba212687f684b879cc803916ed0e3c880f"
     },
     "README.md": {
-      "bytes": 6354,
-      "sha256": "607e2833bea10613d6cb6d27894be8b1876ce6be2b3a75bde32f475d57c2bd61"
+      "bytes": 7075,
+      "sha256": "aaae149a1c89ec1b3da10092b2adf62f16fade70162214dd2a1c0c598d8c80a5"
     },
     "reference_data.py": {
       "bytes": 2695,
@@ -138,6 +138,14 @@
     "verify_release.py": {
       "bytes": 1301,
       "sha256": "a8ea4a4c1094356da6003978f21eb2e110831daf947338973b7cafe55583a425"
+    },
+    "examples/temperature-anomalies-preview.gif": {
+      "bytes": 7247965,
+      "sha256": "97b1c07e6985110c05c32312362fb19265bae80745df7073f0c2d4a8c63637a2"
+    },
+    "results/temperature-anomalies-gistemp-1880-2025-preview.mp4": {
+      "bytes": 7809034,
+      "sha256": "36b82866956632492cc90bf8764d6d8b86935236846e424dbf95e26199d385b9"
     }
   }
 }
