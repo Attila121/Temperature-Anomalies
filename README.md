@@ -4,7 +4,11 @@ Reproduce an annual country dataset and a 1920 x 1080 bubble-chart animation
 from a bundled NASA GISTEMP v4 snapshot. The board contains 191 fixed country
 slots; anomalies are relative to **1951-1980**, in degrees Celsius.
 
-[![Animated temperature anomalies preview, 1880-2025](examples/temperature-anomalies-preview.gif)](results/temperature-anomalies-gistemp-1880-2025-preview.mp4)
+<p align="center">
+  <a href="results/temperature-anomalies-gistemp-1880-2025-preview.mp4">
+    <img src="examples/temperature-anomalies-preview.gif" alt="Animated temperature anomalies preview, 1880-2025">
+  </a>
+</p>
 
 **Smaller video:** [Watch the complete 1880-2025 animation](results/temperature-anomalies-gistemp-1880-2025-preview.mp4)
 (720p H.264, 15 fps, 62.4 seconds, 7.8 MB).
