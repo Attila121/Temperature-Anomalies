@@ -10,13 +10,13 @@ slots; anomalies are relative to **1951-1980**, in degrees Celsius.
   </a>
 </p>
 
-**Smaller video:** [Watch the complete 1880-2025 animation](results/temperature-anomalies-gistemp-1880-2025-preview.mp4)
+**Smaller video:** [Watch the complete 1880-2025 animation](https://github.com/Attila121/Temperature-Anomalies/raw/refs/heads/main/results/temperature-anomalies-gistemp-1880-2025-preview.mp4)
 (720p H.264, 15 fps, 62.4 seconds, 7.8 MB).
 
 **Full-quality video:** [Download the 1080p video](https://github.com/Attila121/Temperature-Anomalies/raw/refs/heads/main/results/temperature-anomalies-gistemp-1880-2025-smooth.mp4)
 (1080p H.264, 30 fps, 62.4 seconds, 67.4 MB).
 
-The original is also available on [Youtube](https://www.youtube.com/watch?v=PhbdyNnUliM) and [flickr](https://www.flickr.com/photos/150411108@N06/43350961005/).
+The original from Antti Lipponen is also available on [Youtube](https://www.youtube.com/watch?v=PhbdyNnUliM) and [flickr](https://www.flickr.com/photos/150411108@N06/43350961005/) (1880-2017).
 
 The inline GIF is a compact 640 x 360, 2 fps preview of the full animation.
 Use either MP4 for clearer labels and smoother motion, or view the
