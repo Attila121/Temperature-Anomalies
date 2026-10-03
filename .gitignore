@@ -1,0 +1,21 @@
+# Local environments and caches
+.venv/
+.conda-env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# Temporary outputs; finished results/, examples/ and data/ stay included
+output/
+*.partial.mp4
+
+# Local configuration and credentials
+.env
+.env.*
+*.env
+
+# Experiments must never be added to this standalone release
+private/
+experiments/

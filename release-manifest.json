@@ -1,0 +1,143 @@
+{
+  "release": "temperature-anomalies-1880-2025",
+  "prepared_on": "2026-10-03",
+  "year_range": [
+    1880,
+    2025
+  ],
+  "country_count": 191,
+  "row_count": 27886,
+  "reference_environment": {
+    "python": "3.11.15",
+    "Pillow": "12.2.0",
+    "numpy": "2.4.4",
+    "shapely": "2.1.2"
+  },
+  "reproduction_validation": "Complete recalculation matches the bundled annual CSV SHA-256.",
+  "files": {
+    ".gitignore": {
+      "bytes": 347,
+      "sha256": "c23a9b28c98c942844457f1e5e0b4a8d98fbcddc34a6de39d7f4428350cdae98"
+    },
+    "assets/fonts/DejaVuSans-Bold.ttf": {
+      "bytes": 704128,
+      "sha256": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+    },
+    "assets/fonts/DejaVuSans.ttf": {
+      "bytes": 756072,
+      "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
+    },
+    "assets/fonts/LICENSE_DEJAVU": {
+      "bytes": 4816,
+      "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+    },
+    "build_video.py": {
+      "bytes": 10726,
+      "sha256": "7a79659d55c4b282210b983d33e8d17d086c72f7486dbc347782d7c83670f435"
+    },
+    "compare_frames.py": {
+      "bytes": 3030,
+      "sha256": "a7cecdf9d7f418e1437de80e121aabbcfc1e1eca19a31c060714d7ffcaf7cf68"
+    },
+    "data/derived/country-anomalies-gistemp-1880-2025.csv": {
+      "bytes": 7260835,
+      "sha256": "48bb1115e021189ea97ef4c840d7e97a105c627ee7511e186b149e0a62cf485f"
+    },
+    "data/derived/country-anomalies-gistemp-1880-2025.json": {
+      "bytes": 38592,
+      "sha256": "4a2003a4322fed6b069d6d3bf4d4511c46e7f1ed0b9845a6ba021e9550f30953"
+    },
+    "data/raw/gistemp1200_GHCNv4_ERSSTv5.nc.gz": {
+      "bytes": 25853076,
+      "sha256": "6a597332bcefbe0fbe5a6ce7677a9012fa766cc43cea291d6207c12db2fe0cc6"
+    },
+    "data/raw/ne_10m_admin_0_countries.geojson": {
+      "bytes": 13287235,
+      "sha256": "a9e136e67199aecafa670f00c41aae4b1d0b0628431eefdaabec09c404d04b74"
+    },
+    "data/README.md": {
+      "bytes": 3279,
+      "sha256": "fe9141aa1a6b42585f09d51edd2169118cb066a070766d5ae84ce19125c95bd0"
+    },
+    "environment.yml": {
+      "bytes": 136,
+      "sha256": "7dd85f795fc4b7b661a119e350c2c691c21d103e9b10c41a0d43dd86ff7e4077"
+    },
+    "examples/frame-2025.json": {
+      "bytes": 4332,
+      "sha256": "f9cdaaf4e23e5167b859f82c0c6da610169a11d92debab93f293ed660d550f80"
+    },
+    "examples/frame-2025.png": {
+      "bytes": 1378108,
+      "sha256": "18e82b3425819b4fb0c70bbe48a75ac83e600c6910d66f64eb4e8db8a81e0754"
+    },
+    "gistemp_data.py": {
+      "bytes": 16987,
+      "sha256": "bbcffe1469f868e7c6b80c16de3da4443ecd29c53109297b2051edbbf291cb18"
+    },
+    "METHODS.md": {
+      "bytes": 4656,
+      "sha256": "b29e194477c4eaf4041d647f2525a2369dc914987e2034eb8369959f9c6be117"
+    },
+    "netcdf_reader.py": {
+      "bytes": 3603,
+      "sha256": "2be118609e2f90b49e5a26b2780518bb616e957c3d4b2ecd7cf9f927a1c5a6cd"
+    },
+    "project_paths.py": {
+      "bytes": 386,
+      "sha256": "b3d90d126559275fa3cd6e96ea18a7ba212687f684b879cc803916ed0e3c880f"
+    },
+    "README.md": {
+      "bytes": 6354,
+      "sha256": "607e2833bea10613d6cb6d27894be8b1876ce6be2b3a75bde32f475d57c2bd61"
+    },
+    "reference_data.py": {
+      "bytes": 2695,
+      "sha256": "74b5d28199b2ceafd0ac78c45f6872b762895d829388ba413dcff5bf9584eb9c"
+    },
+    "render_frame.py": {
+      "bytes": 17860,
+      "sha256": "150960c4da3bdef1a1ea1b8cb6ce577884493471d7aa7aa1bdec97ce5d473aad"
+    },
+    "requirements.txt": {
+      "bytes": 43,
+      "sha256": "cdba282a2ad2336c62622ccb3f35a19dd9368b895fd08cde2b2135d4ea15fb33"
+    },
+    "results/temperature-anomalies-gistemp-1880-2025-smooth.ffmpeg.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "results/temperature-anomalies-gistemp-1880-2025-smooth.json": {
+      "bytes": 49910,
+      "sha256": "83905229f0725c1e7d1c9f4920302799b296e8089658387a44ad3fe004b92183"
+    },
+    "results/temperature-anomalies-gistemp-1880-2025-smooth.mp4": {
+      "bytes": 67354625,
+      "sha256": "1ec97dcf3ef4cf3ce056efcd1b11a1990691a93b558f8308a77a598bffa31b06"
+    },
+    "tests/test_gistemp.py": {
+      "bytes": 2984,
+      "sha256": "c86dd0647a1c098fd3281cd5b1663357000d16f272b35cdd732012fe91bce575"
+    },
+    "tests/test_release.py": {
+      "bytes": 1880,
+      "sha256": "678c53eeeb26eaab5ecbb37b8f7445e55133581946c5dec858a485bda92b6466"
+    },
+    "tests/test_renderer.py": {
+      "bytes": 5960,
+      "sha256": "298df256e07b0a01e05e29ff4018aa9aca6446dc0a378a8888753868538bacd5"
+    },
+    "tests/test_video.py": {
+      "bytes": 3884,
+      "sha256": "93763d0af12dcb8be51397cda8fe5b654555cfacf0e24f68f3dc5f4247ffb66a"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "bytes": 2999,
+      "sha256": "84ec1e9f70992dcd413476dd1f786e7c7c5d72cc53598d0e11aa2b5f752d39ab"
+    },
+    "verify_release.py": {
+      "bytes": 1301,
+      "sha256": "a8ea4a4c1094356da6003978f21eb2e110831daf947338973b7cafe55583a425"
+    }
+  }
+}

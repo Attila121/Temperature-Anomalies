@@ -1,0 +1,1546 @@
+{
+  "year_range": [
+    1880,
+    2025
+  ],
+  "country_count": 191,
+  "row_count": 27886,
+  "source": "data/raw/gistemp1200_GHCNv4_ERSSTv5.nc.gz",
+  "source_sha256": "6a597332bcefbe0fbe5a6ce7677a9012fa766cc43cea291d6207c12db2fe0cc6",
+  "source_info": {
+    "attributes": {
+      "title": "GISTEMP Surface Temperature Analysis",
+      "institution": "NASA Goddard Institute for Space Studies",
+      "source": "http://data.giss.nasa.gov/gistemp/",
+      "Conventions": "CF-1.6",
+      "history": "Created 2026-09-08 02:31:15 by SBBX_to_nc 2.0 - ILAND=1200, IOCEAN=NCDC/ER5, Base: 1951-1980"
+    },
+    "anomaly_attributes": {
+      "long_name": "Surface temperature anomaly",
+      "units": "K",
+      "scale_factor": [
+        0.009999999776482582
+      ],
+      "cell_methods": "time: mean",
+      "_FillValue": [
+        32767
+      ]
+    },
+    "first_month": "1880-01",
+    "last_month": "2025-12",
+    "snapshot_last_month": "2026-08"
+  },
+  "annual_sha256": "48bb1115e021189ea97ef4c840d7e97a105c627ee7511e186b149e0a62cf485f",
+  "geometry": "data/raw/ne_10m_admin_0_countries.geojson",
+  "geometry_sha256": "a9e136e67199aecafa670f00c41aae4b1d0b0628431eefdaabec09c404d04b74",
+  "geometry_url": "https://github.com/nvkelso/natural-earth-vector/blob/v5.1.2/geojson/ne_10m_admin_0_countries.geojson",
+  "geometry_git_blob": "5ebc66e25fc1af01edaebe9375c546655e04cf1e",
+  "geometry_release": "Natural Earth v5.1.2 repository tag, 1:10m Admin 0 Countries",
+  "boundary_policy": "Fixed Natural Earth boundaries in every year; France includes territories in its feature, Norway excludes separately mapped Svalbard. Somaliland merged into Somalia; Northern Cyprus into Cyprus; Kosovo separate (XKX). Other dependencies are excluded from the board.",
+  "method": "Fractional country/grid overlap area on a sphere (R=6371.0088 km); cylindrical equal-area coordinates with geographic edges densified to 0.1 degrees. Monthly area-weighted mean of available cells, then unweighted mean of all 12 country-months.",
+  "minimum_monthly_coverage": 0.0,
+  "missing_policy": "Any positive available area qualifies by default; weights renormalized over available intersecting cells. No spatial or temporal gap filling. Annual N/A if any of 12 months is unusable. Partial coverage flagged and quantified.",
+  "landmask_policy": "Country polygon intersection defines land area; the separate cell land-fraction mask is not multiplied again into polygon areas.",
+  "limitations": "1200 km smoothed land-ocean reconstruction; tiny-country values share surrounding coarse cells. Coverage is spatial support, not a statistical uncertainty estimate. Historical comparison is diagnostic, not independent scientific certification.",
+  "validation": {
+    "baseline_1951_1980": true,
+    "all_1752_months_present": true,
+    "annual_values_require_12_months": true,
+    "unique_complete_country_year_grid": true,
+    "excluded_2026": true,
+    "countries_with_geometry": 191
+  },
+  "missing_countries_by_year": {
+    "1880": [
+      "Antarctica",
+      "Botswana",
+      "Burundi",
+      "Lesotho",
+      "Malawi",
+      "Rwanda",
+      "South Sudan",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "1881": [
+      "Antarctica",
+      "Botswana",
+      "Burundi",
+      "Lesotho",
+      "Malawi",
+      "Rwanda",
+      "South Sudan",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "1882": [
+      "Antarctica",
+      "Botswana",
+      "Burundi",
+      "Central African Rep.",
+      "Chad",
+      "Lesotho",
+      "Malawi",
+      "Rwanda",
+      "South Sudan",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "1883": [
+      "Antarctica",
+      "Botswana",
+      "Burundi",
+      "Central African Rep.",
+      "Chad",
+      "Lesotho",
+      "Malawi",
+      "Rwanda",
+      "South Sudan",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "1884": [
+      "Antarctica",
+      "Botswana",
+      "Burkina Faso",
+      "Burundi",
+      "Central African Rep.",
+      "Chad",
+      "Lesotho",
+      "Malawi",
+      "Niger",
+      "Rwanda",
+      "South Sudan",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "1885": [
+      "Antarctica",
+      "Botswana",
+      "Burkina Faso",
+      "Burundi",
+      "Central African Rep.",
+      "Chad",
+      "Lesotho",
+      "Malawi",
+      "Niger",
+      "Rwanda",
+      "South Sudan",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "1886": [
+      "Antarctica",
+      "Burundi",
+      "Lesotho",
+      "Malawi",
+      "Rwanda",
+      "Uganda"
+    ],
+    "1887": [
+      "Antarctica",
+      "Botswana",
+      "Burundi",
+      "Lesotho",
+      "Malawi",
+      "Rwanda",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "1888": [
+      "Burkina Faso",
+      "Burundi",
+      "Central African Rep.",
+      "Lesotho",
+      "Malawi",
+      "Rwanda",
+      "Uganda"
+    ],
+    "1889": [
+      "Burkina Faso",
+      "Burundi",
+      "Central African Rep.",
+      "Chad",
+      "Lesotho",
+      "Malawi",
+      "Niger",
+      "Rwanda",
+      "Uganda"
+    ],
+    "1890": [
+      "Burkina Faso",
+      "Burundi",
+      "Central African Rep.",
+      "Chad",
+      "Lesotho",
+      "Malawi",
+      "Niger",
+      "Rwanda",
+      "Uganda"
+    ],
+    "1891": [
+      "Burundi",
+      "Central African Rep.",
+      "Chad",
+      "Lesotho",
+      "Malawi",
+      "Rwanda",
+      "Uganda"
+    ],
+    "1892": [
+      "Burundi",
+      "Central African Rep.",
+      "Chad",
+      "Lesotho",
+      "Malawi",
+      "Niger",
+      "Rwanda",
+      "Uganda"
+    ],
+    "1893": [
+      "Botswana",
+      "Burundi",
+      "Central African Rep.",
+      "Lesotho",
+      "Malawi",
+      "Rwanda",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "1894": [
+      "Botswana",
+      "Burkina Faso",
+      "Lesotho"
+    ],
+    "1895": [
+      "Botswana",
+      "Burundi",
+      "Central African Rep.",
+      "Lesotho",
+      "Malawi",
+      "Rwanda",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "1896": [
+      "Botswana",
+      "Burundi",
+      "Central African Rep.",
+      "Lesotho",
+      "Malawi",
+      "Rwanda",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "1897": [
+      "Botswana",
+      "Burundi",
+      "Central African Rep.",
+      "Lesotho",
+      "Malawi",
+      "Rwanda",
+      "South Sudan",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "1898": [
+      "Central African Rep.",
+      "Rwanda",
+      "Uganda"
+    ],
+    "1899": [
+      "Central African Rep."
+    ],
+    "1900": [
+      "Central African Rep."
+    ],
+    "1901": [
+      "Central African Rep."
+    ],
+    "1902": [],
+    "1903": [],
+    "1904": [],
+    "1905": [],
+    "1906": [],
+    "1907": [],
+    "1908": [],
+    "1909": [],
+    "1910": [],
+    "1911": [],
+    "1912": [],
+    "1913": [],
+    "1914": [],
+    "1915": [],
+    "1916": [],
+    "1917": [],
+    "1918": [],
+    "1919": [],
+    "1920": [],
+    "1921": [],
+    "1922": [],
+    "1923": [],
+    "1924": [],
+    "1925": [],
+    "1926": [],
+    "1927": [],
+    "1928": [],
+    "1929": [],
+    "1930": [],
+    "1931": [],
+    "1932": [],
+    "1933": [],
+    "1934": [],
+    "1935": [],
+    "1936": [],
+    "1937": [],
+    "1938": [],
+    "1939": [],
+    "1940": [],
+    "1941": [],
+    "1942": [],
+    "1943": [],
+    "1944": [],
+    "1945": [],
+    "1946": [],
+    "1947": [],
+    "1948": [],
+    "1949": [],
+    "1950": [],
+    "1951": [],
+    "1952": [],
+    "1953": [],
+    "1954": [],
+    "1955": [],
+    "1956": [],
+    "1957": [],
+    "1958": [],
+    "1959": [],
+    "1960": [],
+    "1961": [],
+    "1962": [],
+    "1963": [],
+    "1964": [],
+    "1965": [],
+    "1966": [],
+    "1967": [],
+    "1968": [],
+    "1969": [],
+    "1970": [],
+    "1971": [],
+    "1972": [],
+    "1973": [],
+    "1974": [],
+    "1975": [],
+    "1976": [],
+    "1977": [],
+    "1978": [],
+    "1979": [],
+    "1980": [],
+    "1981": [],
+    "1982": [],
+    "1983": [],
+    "1984": [],
+    "1985": [],
+    "1986": [],
+    "1987": [],
+    "1988": [],
+    "1989": [],
+    "1990": [],
+    "1991": [],
+    "1992": [],
+    "1993": [],
+    "1994": [],
+    "1995": [],
+    "1996": [],
+    "1997": [],
+    "1998": [],
+    "1999": [],
+    "2000": [],
+    "2001": [],
+    "2002": [],
+    "2003": [],
+    "2004": [],
+    "2005": [],
+    "2006": [],
+    "2007": [],
+    "2008": [],
+    "2009": [],
+    "2010": [],
+    "2011": [],
+    "2012": [],
+    "2013": [],
+    "2014": [],
+    "2015": [],
+    "2016": [],
+    "2017": [],
+    "2018": [],
+    "2019": [],
+    "2020": [],
+    "2021": [],
+    "2022": [],
+    "2023": [],
+    "2024": [],
+    "2025": []
+  },
+  "spatial_support": {
+    "Afghanistan": {
+      "iso3": "AFG",
+      "continent": "Asia",
+      "n_grid_cells": 29,
+      "effective_area_km2": 642392.5017389306
+    },
+    "Albania": {
+      "iso3": "ALB",
+      "continent": "Europe",
+      "n_grid_cells": 6,
+      "effective_area_km2": 28298.356108319407
+    },
+    "Algeria": {
+      "iso3": "DZA",
+      "continent": "Africa",
+      "n_grid_cells": 74,
+      "effective_area_km2": 2312302.1264062957
+    },
+    "Andorra": {
+      "iso3": "AND",
+      "continent": "Europe",
+      "n_grid_cells": 1,
+      "effective_area_km2": 451.4939917715771
+    },
+    "Angola": {
+      "iso3": "AGO",
+      "continent": "Africa",
+      "n_grid_cells": 42,
+      "effective_area_km2": 1249439.4916499835
+    },
+    "Antarctica": {
+      "iso3": "ATA",
+      "continent": "Antarctica",
+      "n_grid_cells": 1724,
+      "effective_area_km2": 12258364.379035676
+    },
+    "Argentina": {
+      "iso3": "ARG",
+      "continent": "South America",
+      "n_grid_cells": 110,
+      "effective_area_km2": 2783121.5830007507
+    },
+    "Armenia": {
+      "iso3": "ARM",
+      "continent": "Asia",
+      "n_grid_cells": 4,
+      "effective_area_km2": 29554.9867373993
+    },
+    "Australia": {
+      "iso3": "AUS",
+      "continent": "Oceania",
+      "n_grid_cells": 236,
+      "effective_area_km2": 7706039.584109741
+    },
+    "Austria": {
+      "iso3": "AUT",
+      "continent": "Europe",
+      "n_grid_cells": 8,
+      "effective_area_km2": 83755.91835904795
+    },
+    "Azerbaijan": {
+      "iso3": "AZE",
+      "continent": "Asia",
+      "n_grid_cells": 7,
+      "effective_area_km2": 86152.90971688551
+    },
+    "Bahamas, The": {
+      "iso3": "BHS",
+      "continent": "North America",
+      "n_grid_cells": 10,
+      "effective_area_km2": 12631.938118049298
+    },
+    "Bahrain": {
+      "iso3": "BHR",
+      "continent": "Asia",
+      "n_grid_cells": 2,
+      "effective_area_km2": 689.4250819946659
+    },
+    "Bangladesh": {
+      "iso3": "BGD",
+      "continent": "Asia",
+      "n_grid_cells": 10,
+      "effective_area_km2": 137217.43852132576
+    },
+    "Barbados": {
+      "iso3": "BRB",
+      "continent": "North America",
+      "n_grid_cells": 1,
+      "effective_area_km2": 445.9069260384291
+    },
+    "Belarus": {
+      "iso3": "BLR",
+      "continent": "Europe",
+      "n_grid_cells": 17,
+      "effective_area_km2": 206632.09739648266
+    },
+    "Belize": {
+      "iso3": "BLZ",
+      "continent": "North America",
+      "n_grid_cells": 5,
+      "effective_area_km2": 22373.262797752886
+    },
+    "Benin": {
+      "iso3": "BEN",
+      "continent": "Africa",
+      "n_grid_cells": 7,
+      "effective_area_km2": 116590.00276661251
+    },
+    "Bhutan": {
+      "iso3": "BTN",
+      "continent": "Asia",
+      "n_grid_cells": 5,
+      "effective_area_km2": 40487.61786781954
+    },
+    "Bolivia": {
+      "iso3": "BOL",
+      "continent": "South America",
+      "n_grid_cells": 40,
+      "effective_area_km2": 1090454.4059728482
+    },
+    "Bosnia and H.": {
+      "iso3": "BIH",
+      "continent": "Europe",
+      "n_grid_cells": 5,
+      "effective_area_km2": 51721.5916663678
+    },
+    "Botswana": {
+      "iso3": "BWA",
+      "continent": "Africa",
+      "n_grid_cells": 24,
+      "effective_area_km2": 580514.9641569407
+    },
+    "Brazil": {
+      "iso3": "BRA",
+      "continent": "South America",
+      "n_grid_cells": 229,
+      "effective_area_km2": 8504954.670261431
+    },
+    "Brunei": {
+      "iso3": "BRN",
+      "continent": "Asia",
+      "n_grid_cells": 2,
+      "effective_area_km2": 5741.832686087342
+    },
+    "Bulgaria": {
+      "iso3": "BGR",
+      "continent": "Europe",
+      "n_grid_cells": 10,
+      "effective_area_km2": 112568.31283372294
+    },
+    "Burkina Faso": {
+      "iso3": "BFA",
+      "continent": "Africa",
+      "n_grid_cells": 15,
+      "effective_area_km2": 273826.8091039914
+    },
+    "Burundi": {
+      "iso3": "BDI",
+      "continent": "Africa",
+      "n_grid_cells": 4,
+      "effective_area_km2": 27161.380234983506
+    },
+    "Cabo Verde": {
+      "iso3": "CPV",
+      "continent": "Africa",
+      "n_grid_cells": 4,
+      "effective_area_km2": 3940.3580132237585
+    },
+    "Cambodia": {
+      "iso3": "KHM",
+      "continent": "Asia",
+      "n_grid_cells": 9,
+      "effective_area_km2": 181754.15036721886
+    },
+    "Cameroon": {
+      "iso3": "CMR",
+      "continent": "Africa",
+      "n_grid_cells": 20,
+      "effective_area_km2": 466331.3518346947
+    },
+    "Canada": {
+      "iso3": "CAN",
+      "continent": "North America",
+      "n_grid_cells": 623,
+      "effective_area_km2": 9894501.427853713
+    },
+    "Central African Rep.": {
+      "iso3": "CAF",
+      "continent": "Africa",
+      "n_grid_cells": 24,
+      "effective_area_km2": 620643.8375644134
+    },
+    "Chad": {
+      "iso3": "TCD",
+      "continent": "Africa",
+      "n_grid_cells": 42,
+      "effective_area_km2": 1270722.904126291
+    },
+    "Chile": {
+      "iso3": "CHL",
+      "continent": "South America",
+      "n_grid_cells": 57,
+      "effective_area_km2": 736364.0896306158
+    },
+    "China": {
+      "iso3": "CHN",
+      "continent": "Asia",
+      "n_grid_cells": 309,
+      "effective_area_km2": 9373414.310489215
+    },
+    "Colombia": {
+      "iso3": "COL",
+      "continent": "South America",
+      "n_grid_cells": 45,
+      "effective_area_km2": 1140094.7236362507
+    },
+    "Comoros": {
+      "iso3": "COM",
+      "continent": "Africa",
+      "n_grid_cells": 3,
+      "effective_area_km2": 1678.7819331761557
+    },
+    "Congo, DR": {
+      "iso3": "COD",
+      "continent": "Africa",
+      "n_grid_cells": 69,
+      "effective_area_km2": 2335422.313726349
+    },
+    "Congo, R": {
+      "iso3": "COG",
+      "continent": "Africa",
+      "n_grid_cells": 18,
+      "effective_area_km2": 346428.72786326386
+    },
+    "Costa Rica": {
+      "iso3": "CRI",
+      "continent": "North America",
+      "n_grid_cells": 5,
+      "effective_area_km2": 51360.06210659433
+    },
+    "Croatia": {
+      "iso3": "HRV",
+      "continent": "Europe",
+      "n_grid_cells": 9,
+      "effective_area_km2": 54900.2155729837
+    },
+    "Cuba": {
+      "iso3": "CUB",
+      "continent": "North America",
+      "n_grid_cells": 13,
+      "effective_area_km2": 110222.02105755873
+    },
+    "Cyprus": {
+      "iso3": "CYP",
+      "continent": "Asia",
+      "n_grid_cells": 2,
+      "effective_area_km2": 8714.964526908303
+    },
+    "Czechia": {
+      "iso3": "CZE",
+      "continent": "Europe",
+      "n_grid_cells": 8,
+      "effective_area_km2": 78497.25851169977
+    },
+    "Côte d'Ivoire": {
+      "iso3": "CIV",
+      "continent": "Africa",
+      "n_grid_cells": 14,
+      "effective_area_km2": 322038.5961943847
+    },
+    "Denmark": {
+      "iso3": "DNK",
+      "continent": "Europe",
+      "n_grid_cells": 7,
+      "effective_area_km2": 42494.42244307306
+    },
+    "Djibouti": {
+      "iso3": "DJI",
+      "continent": "Africa",
+      "n_grid_cells": 3,
+      "effective_area_km2": 21933.756029799653
+    },
+    "Dominica": {
+      "iso3": "DMA",
+      "continent": "North America",
+      "n_grid_cells": 1,
+      "effective_area_km2": 732.8947970667883
+    },
+    "Dominican Republic": {
+      "iso3": "DOM",
+      "continent": "North America",
+      "n_grid_cells": 4,
+      "effective_area_km2": 48589.04854200065
+    },
+    "Ecuador": {
+      "iso3": "ECU",
+      "continent": "South America",
+      "n_grid_cells": 18,
+      "effective_area_km2": 256155.22999373407
+    },
+    "Egypt, Arab Rep.": {
+      "iso3": "EGY",
+      "continent": "Africa",
+      "n_grid_cells": 38,
+      "effective_area_km2": 1002870.0146003815
+    },
+    "El Salvador": {
+      "iso3": "SLV",
+      "continent": "North America",
+      "n_grid_cells": 4,
+      "effective_area_km2": 20616.08265715705
+    },
+    "Equatorial Guinea": {
+      "iso3": "GNQ",
+      "continent": "Africa",
+      "n_grid_cells": 5,
+      "effective_area_km2": 26791.06291111428
+    },
+    "Eritrea": {
+      "iso3": "ERI",
+      "continent": "Africa",
+      "n_grid_cells": 9,
+      "effective_area_km2": 122972.05003753041
+    },
+    "Estonia": {
+      "iso3": "EST",
+      "continent": "Europe",
+      "n_grid_cells": 9,
+      "effective_area_km2": 45576.2619881896
+    },
+    "eSwatini": {
+      "iso3": "SWZ",
+      "continent": "Africa",
+      "n_grid_cells": 4,
+      "effective_area_km2": 17142.753705182466
+    },
+    "Ethiopia": {
+      "iso3": "ETH",
+      "continent": "Africa",
+      "n_grid_cells": 38,
+      "effective_area_km2": 1132066.6302377318
+    },
+    "Fiji": {
+      "iso3": "FJI",
+      "continent": "Oceania",
+      "n_grid_cells": 9,
+      "effective_area_km2": 18992.158979959906
+    },
+    "Finland": {
+      "iso3": "FIN",
+      "continent": "Europe",
+      "n_grid_cells": 30,
+      "effective_area_km2": 330937.711388712
+    },
+    "France": {
+      "iso3": "FRA",
+      "continent": "Seven seas (open ocean)",
+      "n_grid_cells": 41,
+      "effective_area_km2": 635742.4701163059
+    },
+    "Gabon": {
+      "iso3": "GAB",
+      "continent": "Africa",
+      "n_grid_cells": 14,
+      "effective_area_km2": 261133.33841434025
+    },
+    "Gambia, The": {
+      "iso3": "GMB",
+      "continent": "Africa",
+      "n_grid_cells": 3,
+      "effective_area_km2": 10540.593205513045
+    },
+    "Georgia": {
+      "iso3": "GEO",
+      "continent": "Asia",
+      "n_grid_cells": 9,
+      "effective_area_km2": 69462.26117316929
+    },
+    "Germany": {
+      "iso3": "DEU",
+      "continent": "Europe",
+      "n_grid_cells": 24,
+      "effective_area_km2": 356378.8001800274
+    },
+    "Ghana": {
+      "iso3": "GHA",
+      "continent": "Africa",
+      "n_grid_cells": 12,
+      "effective_area_km2": 239676.40224691623
+    },
+    "Greece": {
+      "iso3": "GRC",
+      "continent": "Europe",
+      "n_grid_cells": 17,
+      "effective_area_km2": 131243.74142943232
+    },
+    "Grenada": {
+      "iso3": "GRD",
+      "continent": "North America",
+      "n_grid_cells": 1,
+      "effective_area_km2": 348.61105276242637
+    },
+    "Guatemala": {
+      "iso3": "GTM",
+      "continent": "North America",
+      "n_grid_cells": 7,
+      "effective_area_km2": 109191.94365630158
+    },
+    "Guinea": {
+      "iso3": "GIN",
+      "continent": "Africa",
+      "n_grid_cells": 14,
+      "effective_area_km2": 245290.14170370818
+    },
+    "Guinea-Bissau": {
+      "iso3": "GNB",
+      "continent": "Africa",
+      "n_grid_cells": 6,
+      "effective_area_km2": 32957.31056260421
+    },
+    "Guyana": {
+      "iso3": "GUY",
+      "continent": "South America",
+      "n_grid_cells": 13,
+      "effective_area_km2": 212139.39523884625
+    },
+    "Haiti": {
+      "iso3": "HTI",
+      "continent": "North America",
+      "n_grid_cells": 4,
+      "effective_area_km2": 26974.226908281446
+    },
+    "Honduras": {
+      "iso3": "HND",
+      "continent": "North America",
+      "n_grid_cells": 10,
+      "effective_area_km2": 112641.58045884361
+    },
+    "Hungary": {
+      "iso3": "HUN",
+      "continent": "Europe",
+      "n_grid_cells": 10,
+      "effective_area_km2": 92946.62696249444
+    },
+    "Iceland": {
+      "iso3": "ISL",
+      "continent": "Europe",
+      "n_grid_cells": 16,
+      "effective_area_km2": 101722.67362835606
+    },
+    "India": {
+      "iso3": "IND",
+      "continent": "Asia",
+      "n_grid_cells": 113,
+      "effective_area_km2": 3158316.622540974
+    },
+    "Indonesia": {
+      "iso3": "IDN",
+      "continent": "Asia",
+      "n_grid_cells": 135,
+      "effective_area_km2": 1888146.5681095514
+    },
+    "Iran, Islamic Rep.": {
+      "iso3": "IRN",
+      "continent": "Asia",
+      "n_grid_cells": 59,
+      "effective_area_km2": 1623487.692252488
+    },
+    "Iraq": {
+      "iso3": "IRQ",
+      "continent": "Asia",
+      "n_grid_cells": 22,
+      "effective_area_km2": 437585.4762942543
+    },
+    "Ireland": {
+      "iso3": "IRL",
+      "continent": "Europe",
+      "n_grid_cells": 10,
+      "effective_area_km2": 69160.19783396235
+    },
+    "Israel": {
+      "iso3": "ISR",
+      "continent": "Asia",
+      "n_grid_cells": 3,
+      "effective_area_km2": 22119.81747109456
+    },
+    "Italy": {
+      "iso3": "ITA",
+      "continent": "Europe",
+      "n_grid_cells": 29,
+      "effective_area_km2": 300678.1386259223
+    },
+    "Jamaica": {
+      "iso3": "JAM",
+      "continent": "North America",
+      "n_grid_cells": 3,
+      "effective_area_km2": 11068.045018733708
+    },
+    "Japan": {
+      "iso3": "JPN",
+      "continent": "Asia",
+      "n_grid_cells": 45,
+      "effective_area_km2": 373332.15270306455
+    },
+    "Jordan": {
+      "iso3": "JOR",
+      "continent": "Asia",
+      "n_grid_cells": 8,
+      "effective_area_km2": 88940.65488728741
+    },
+    "Kazakhstan": {
+      "iso3": "KAZ",
+      "continent": "Asia",
+      "n_grid_cells": 117,
+      "effective_area_km2": 2712841.5413287454
+    },
+    "Kenya": {
+      "iso3": "KEN",
+      "continent": "Africa",
+      "n_grid_cells": 23,
+      "effective_area_km2": 588319.9437168316
+    },
+    "Kiribati": {
+      "iso3": "KIR",
+      "continent": "Oceania",
+      "n_grid_cells": 17,
+      "effective_area_km2": 954.0940828993699
+    },
+    "Korea, DPR": {
+      "iso3": "PRK",
+      "continent": "Asia",
+      "n_grid_cells": 11,
+      "effective_area_km2": 122246.06058808249
+    },
+    "Korea": {
+      "iso3": "KOR",
+      "continent": "Asia",
+      "n_grid_cells": 10,
+      "effective_area_km2": 98521.16280600846
+    },
+    "Kosovo": {
+      "iso3": "XKX",
+      "continent": "Europe",
+      "n_grid_cells": 2,
+      "effective_area_km2": 10895.050229864844
+    },
+    "Kuwait": {
+      "iso3": "KWT",
+      "continent": "Asia",
+      "n_grid_cells": 4,
+      "effective_area_km2": 17495.753223993972
+    },
+    "Kyrgyz Republic": {
+      "iso3": "KGZ",
+      "continent": "Asia",
+      "n_grid_cells": 15,
+      "effective_area_km2": 198712.6035664203
+    },
+    "Lao PDR": {
+      "iso3": "LAO",
+      "continent": "Asia",
+      "n_grid_cells": 16,
+      "effective_area_km2": 228826.97954982694
+    },
+    "Latvia": {
+      "iso3": "LVA",
+      "continent": "Europe",
+      "n_grid_cells": 8,
+      "effective_area_km2": 64259.05445218086
+    },
+    "Lebanon": {
+      "iso3": "LBN",
+      "continent": "Asia",
+      "n_grid_cells": 4,
+      "effective_area_km2": 10007.146606907681
+    },
+    "Lesotho": {
+      "iso3": "LSO",
+      "continent": "Africa",
+      "n_grid_cells": 4,
+      "effective_area_km2": 30143.063790905133
+    },
+    "Liberia": {
+      "iso3": "LBR",
+      "continent": "Africa",
+      "n_grid_cells": 8,
+      "effective_area_km2": 95709.63524089292
+    },
+    "Libya": {
+      "iso3": "LBY",
+      "continent": "Africa",
+      "n_grid_cells": 57,
+      "effective_area_km2": 1626531.4229216764
+    },
+    "Liechtenstein": {
+      "iso3": "LIE",
+      "continent": "Europe",
+      "n_grid_cells": 1,
+      "effective_area_km2": 136.87707915379215
+    },
+    "Lithuania": {
+      "iso3": "LTU",
+      "continent": "Europe",
+      "n_grid_cells": 9,
+      "effective_area_km2": 64641.287315750895
+    },
+    "Luxembourg": {
+      "iso3": "LUX",
+      "continent": "Europe",
+      "n_grid_cells": 4,
+      "effective_area_km2": 2599.7836907595465
+    },
+    "Macedonia, FYR": {
+      "iso3": "MKD",
+      "continent": "Europe",
+      "n_grid_cells": 4,
+      "effective_area_km2": 25348.980692404268
+    },
+    "Madagascar": {
+      "iso3": "MDG",
+      "continent": "Africa",
+      "n_grid_cells": 27,
+      "effective_area_km2": 594753.4332179823
+    },
+    "Malawi": {
+      "iso3": "MWI",
+      "continent": "Africa",
+      "n_grid_cells": 9,
+      "effective_area_km2": 119848.57981015019
+    },
+    "Malaysia": {
+      "iso3": "MYS",
+      "continent": "Asia",
+      "n_grid_cells": 24,
+      "effective_area_km2": 329334.88815440785
+    },
+    "Maldives": {
+      "iso3": "MDV",
+      "continent": "Seven seas (open ocean)",
+      "n_grid_cells": 5,
+      "effective_area_km2": 109.2224019494636
+    },
+    "Mali": {
+      "iso3": "MLI",
+      "continent": "Africa",
+      "n_grid_cells": 45,
+      "effective_area_km2": 1256812.6564793575
+    },
+    "Malta": {
+      "iso3": "MLT",
+      "continent": "Europe",
+      "n_grid_cells": 2,
+      "effective_area_km2": 325.6407079211548
+    },
+    "Marshall Islands": {
+      "iso3": "MHL",
+      "continent": "Oceania",
+      "n_grid_cells": 10,
+      "effective_area_km2": 165.51947043321624
+    },
+    "Mauritania": {
+      "iso3": "MRT",
+      "continent": "Africa",
+      "n_grid_cells": 37,
+      "effective_area_km2": 1039354.1279855147
+    },
+    "Mauritius": {
+      "iso3": "MUS",
+      "continent": "Seven seas (open ocean)",
+      "n_grid_cells": 4,
+      "effective_area_km2": 2020.2475124116395
+    },
+    "Mexico": {
+      "iso3": "MEX",
+      "continent": "North America",
+      "n_grid_cells": 82,
+      "effective_area_km2": 1962242.6699041072
+    },
+    "Micronesia": {
+      "iso3": "FSM",
+      "continent": "Oceania",
+      "n_grid_cells": 13,
+      "effective_area_km2": 636.5633583972381
+    },
+    "Moldova": {
+      "iso3": "MDA",
+      "continent": "Europe",
+      "n_grid_cells": 6,
+      "effective_area_km2": 33115.78658411694
+    },
+    "Monaco": {
+      "iso3": "MCO",
+      "continent": "Europe",
+      "n_grid_cells": 1,
+      "effective_area_km2": 18.803401159230013
+    },
+    "Mongolia": {
+      "iso3": "MNG",
+      "continent": "Asia",
+      "n_grid_cells": 72,
+      "effective_area_km2": 1560551.2916494373
+    },
+    "Montenegro": {
+      "iso3": "MNE",
+      "continent": "Europe",
+      "n_grid_cells": 3,
+      "effective_area_km2": 13704.07683764193
+    },
+    "Morocco": {
+      "iso3": "MAR",
+      "continent": "Africa",
+      "n_grid_cells": 29,
+      "effective_area_km2": 592429.6636351964
+    },
+    "Mozambique": {
+      "iso3": "MOZ",
+      "continent": "Africa",
+      "n_grid_cells": 33,
+      "effective_area_km2": 791021.6799946754
+    },
+    "Myanmar": {
+      "iso3": "MMR",
+      "continent": "Asia",
+      "n_grid_cells": 34,
+      "effective_area_km2": 664957.0972949931
+    },
+    "Namibia": {
+      "iso3": "NAM",
+      "continent": "Africa",
+      "n_grid_cells": 34,
+      "effective_area_km2": 824824.0582694793
+    },
+    "Nauru": {
+      "iso3": "NRU",
+      "continent": "Oceania",
+      "n_grid_cells": 1,
+      "effective_area_km2": 28.89611863060561
+    },
+    "Nepal": {
+      "iso3": "NPL",
+      "continent": "Asia",
+      "n_grid_cells": 11,
+      "effective_area_km2": 147323.49660361698
+    },
+    "Netherlands": {
+      "iso3": "NLD",
+      "continent": "Europe",
+      "n_grid_cells": 7,
+      "effective_area_km2": 37253.46324982415
+    },
+    "New Zealand": {
+      "iso3": "NZL",
+      "continent": "Oceania",
+      "n_grid_cells": 34,
+      "effective_area_km2": 268109.1899429758
+    },
+    "Nicaragua": {
+      "iso3": "NIC",
+      "continent": "North America",
+      "n_grid_cells": 9,
+      "effective_area_km2": 129176.61257634834
+    },
+    "Niger": {
+      "iso3": "NER",
+      "continent": "Africa",
+      "n_grid_cells": 38,
+      "effective_area_km2": 1185160.9773718368
+    },
+    "Nigeria": {
+      "iso3": "NGA",
+      "continent": "Africa",
+      "n_grid_cells": 29,
+      "effective_area_km2": 911217.0724555337
+    },
+    "Norway": {
+      "iso3": "NOR",
+      "continent": "Europe",
+      "n_grid_cells": 70,
+      "effective_area_km2": 379541.16600656253
+    },
+    "Oman": {
+      "iso3": "OMN",
+      "continent": "Asia",
+      "n_grid_cells": 16,
+      "effective_area_km2": 312089.90624880156
+    },
+    "Pakistan": {
+      "iso3": "PAK",
+      "continent": "Asia",
+      "n_grid_cells": 39,
+      "effective_area_km2": 873936.2647899337
+    },
+    "Palau": {
+      "iso3": "PLW",
+      "continent": "Oceania",
+      "n_grid_cells": 4,
+      "effective_area_km2": 494.03485916718864
+    },
+    "Panama": {
+      "iso3": "PAN",
+      "continent": "North America",
+      "n_grid_cells": 7,
+      "effective_area_km2": 74842.95197990828
+    },
+    "Papua New Guinea": {
+      "iso3": "PNG",
+      "continent": "Oceania",
+      "n_grid_cells": 39,
+      "effective_area_km2": 467150.4926942209
+    },
+    "Paraguay": {
+      "iso3": "PRY",
+      "continent": "South America",
+      "n_grid_cells": 18,
+      "effective_area_km2": 400858.36445162504
+    },
+    "Peru": {
+      "iso3": "PER",
+      "continent": "South America",
+      "n_grid_cells": 47,
+      "effective_area_km2": 1295126.7059401413
+    },
+    "Philippines": {
+      "iso3": "PHL",
+      "continent": "Asia",
+      "n_grid_cells": 35,
+      "effective_area_km2": 294429.9077276246
+    },
+    "Poland": {
+      "iso3": "POL",
+      "continent": "Europe",
+      "n_grid_cells": 20,
+      "effective_area_km2": 312217.990061169
+    },
+    "Portugal": {
+      "iso3": "PRT",
+      "continent": "Europe",
+      "n_grid_cells": 14,
+      "effective_area_km2": 91302.87013805502
+    },
+    "Qatar": {
+      "iso3": "QAT",
+      "continent": "Asia",
+      "n_grid_cells": 2,
+      "effective_area_km2": 11172.807521114983
+    },
+    "Romania": {
+      "iso3": "ROU",
+      "continent": "Europe",
+      "n_grid_cells": 16,
+      "effective_area_km2": 235805.65295345284
+    },
+    "Russia": {
+      "iso3": "RUS",
+      "continent": "Europe",
+      "n_grid_cells": 983,
+      "effective_area_km2": 16886305.77675335
+    },
+    "Rwanda": {
+      "iso3": "RWA",
+      "continent": "Africa",
+      "n_grid_cells": 4,
+      "effective_area_km2": 25418.258042361325
+    },
+    "Samoa": {
+      "iso3": "WSM",
+      "continent": "Oceania",
+      "n_grid_cells": 3,
+      "effective_area_km2": 2790.7942988383315
+    },
+    "San Marino": {
+      "iso3": "SMR",
+      "continent": "Europe",
+      "n_grid_cells": 1,
+      "effective_area_km2": 60.198136037893626
+    },
+    "Sao Tome and P.": {
+      "iso3": "STP",
+      "continent": "Africa",
+      "n_grid_cells": 1,
+      "effective_area_km2": 1041.8113329674763
+    },
+    "Saudi Arabia": {
+      "iso3": "SAU",
+      "continent": "Asia",
+      "n_grid_cells": 61,
+      "effective_area_km2": 1926006.3504460233
+    },
+    "Senegal": {
+      "iso3": "SEN",
+      "continent": "Africa",
+      "n_grid_cells": 11,
+      "effective_area_km2": 196942.56940758252
+    },
+    "Seychelles": {
+      "iso3": "SYC",
+      "continent": "Seven seas (open ocean)",
+      "n_grid_cells": 6,
+      "effective_area_km2": 437.53497619597914
+    },
+    "Sierra Leone": {
+      "iso3": "SLE",
+      "continent": "Africa",
+      "n_grid_cells": 4,
+      "effective_area_km2": 71911.65160700845
+    },
+    "Singapore": {
+      "iso3": "SGP",
+      "continent": "Asia",
+      "n_grid_cells": 2,
+      "effective_area_km2": 512.7905329649086
+    },
+    "Slovak Republic": {
+      "iso3": "SVK",
+      "continent": "Europe",
+      "n_grid_cells": 6,
+      "effective_area_km2": 48308.38305134646
+    },
+    "Slovenia": {
+      "iso3": "SVN",
+      "continent": "Europe",
+      "n_grid_cells": 5,
+      "effective_area_km2": 20276.528522130044
+    },
+    "Solomon Islands": {
+      "iso3": "SLB",
+      "continent": "Oceania",
+      "n_grid_cells": 15,
+      "effective_area_km2": 27312.039820448437
+    },
+    "Somalia": {
+      "iso3": "SOM",
+      "continent": "Africa",
+      "n_grid_cells": 27,
+      "effective_area_km2": 641965.337027739
+    },
+    "South Africa": {
+      "iso3": "ZAF",
+      "continent": "Africa",
+      "n_grid_cells": 47,
+      "effective_area_km2": 1221446.294425125
+    },
+    "South Sudan": {
+      "iso3": "SSD",
+      "continent": "Africa",
+      "n_grid_cells": 25,
+      "effective_area_km2": 629530.6785292622
+    },
+    "Spain": {
+      "iso3": "ESP",
+      "continent": "Europe",
+      "n_grid_cells": 35,
+      "effective_area_km2": 506328.0758006928
+    },
+    "Sri Lanka": {
+      "iso3": "LKA",
+      "continent": "Asia",
+      "n_grid_cells": 5,
+      "effective_area_km2": 66572.96298252202
+    },
+    "St. Kitts and Nevis": {
+      "iso3": "KNA",
+      "continent": "North America",
+      "n_grid_cells": 1,
+      "effective_area_km2": 264.99516214541615
+    },
+    "St. Lucia": {
+      "iso3": "LCA",
+      "continent": "North America",
+      "n_grid_cells": 2,
+      "effective_area_km2": 607.3811480226433
+    },
+    "St. V. and the G.": {
+      "iso3": "VCT",
+      "continent": "North America",
+      "n_grid_cells": 1,
+      "effective_area_km2": 369.1211164807017
+    },
+    "Sudan": {
+      "iso3": "SDN",
+      "continent": "Africa",
+      "n_grid_cells": 57,
+      "effective_area_km2": 1861995.4285321713
+    },
+    "Suriname": {
+      "iso3": "SUR",
+      "continent": "South America",
+      "n_grid_cells": 11,
+      "effective_area_km2": 145764.3944834175
+    },
+    "Sweden": {
+      "iso3": "SWE",
+      "continent": "Europe",
+      "n_grid_cells": 39,
+      "effective_area_km2": 443494.16763205064
+    },
+    "Switzerland": {
+      "iso3": "CHE",
+      "continent": "Europe",
+      "n_grid_cells": 6,
+      "effective_area_km2": 41326.05548351672
+    },
+    "Syria": {
+      "iso3": "SYR",
+      "continent": "Asia",
+      "n_grid_cells": 12,
+      "effective_area_km2": 185951.8238008204
+    },
+    "Taiwan": {
+      "iso3": "TWN",
+      "continent": "Asia",
+      "n_grid_cells": 6,
+      "effective_area_km2": 36281.40446758746
+    },
+    "Tajikistan": {
+      "iso3": "TJK",
+      "continent": "Asia",
+      "n_grid_cells": 12,
+      "effective_area_km2": 142136.3039086925
+    },
+    "Thailand": {
+      "iso3": "THA",
+      "continent": "Asia",
+      "n_grid_cells": 28,
+      "effective_area_km2": 516275.49003048305
+    },
+    "Timor-Leste": {
+      "iso3": "TLS",
+      "continent": "Asia",
+      "n_grid_cells": 2,
+      "effective_area_km2": 15145.11860977274
+    },
+    "Togo": {
+      "iso3": "TGO",
+      "continent": "Africa",
+      "n_grid_cells": 4,
+      "effective_area_km2": 57101.5469116617
+    },
+    "Tonga": {
+      "iso3": "TON",
+      "continent": "Oceania",
+      "n_grid_cells": 5,
+      "effective_area_km2": 604.8594034466344
+    },
+    "Trinidad and Tobago": {
+      "iso3": "TTO",
+      "continent": "North America",
+      "n_grid_cells": 1,
+      "effective_area_km2": 5143.647924027631
+    },
+    "Tunisia": {
+      "iso3": "TUN",
+      "continent": "Africa",
+      "n_grid_cells": 10,
+      "effective_area_km2": 156654.51494803999
+    },
+    "Turkey": {
+      "iso3": "TUR",
+      "continent": "Asia",
+      "n_grid_cells": 37,
+      "effective_area_km2": 779426.3821345696
+    },
+    "Turkmenistan": {
+      "iso3": "TKM",
+      "continent": "Asia",
+      "n_grid_cells": 30,
+      "effective_area_km2": 470449.54145221465
+    },
+    "Tuvalu": {
+      "iso3": "TUV",
+      "continent": "Oceania",
+      "n_grid_cells": 4,
+      "effective_area_km2": 23.116063332774843
+    },
+    "Uganda": {
+      "iso3": "UGA",
+      "continent": "Africa",
+      "n_grid_cells": 12,
+      "effective_area_km2": 242936.01259413495
+    },
+    "Ukraine": {
+      "iso3": "UKR",
+      "continent": "Europe",
+      "n_grid_cells": 34,
+      "effective_area_km2": 570179.8586889755
+    },
+    "United Arab Emirates": {
+      "iso3": "ARE",
+      "continent": "Asia",
+      "n_grid_cells": 8,
+      "effective_area_km2": 71247.23695346154
+    },
+    "Uruguay": {
+      "iso3": "URY",
+      "continent": "South America",
+      "n_grid_cells": 12,
+      "effective_area_km2": 177439.54529808517
+    },
+    "USA": {
+      "iso3": "USA",
+      "continent": "North America",
+      "n_grid_cells": 419,
+      "effective_area_km2": 9447841.440185511
+    },
+    "Uzbekistan": {
+      "iso3": "UZB",
+      "continent": "Asia",
+      "n_grid_cells": 29,
+      "effective_area_km2": 447179.6666459381
+    },
+    "Vanuatu": {
+      "iso3": "VUT",
+      "continent": "Oceania",
+      "n_grid_cells": 7,
+      "effective_area_km2": 12338.908133316836
+    },
+    "Venezuela, RB": {
+      "iso3": "VEN",
+      "continent": "South America",
+      "n_grid_cells": 36,
+      "effective_area_km2": 916571.3718948077
+    },
+    "Vietnam": {
+      "iso3": "VNM",
+      "continent": "Asia",
+      "n_grid_cells": 22,
+      "effective_area_km2": 329986.8787630734
+    },
+    "Yemen, Rep.": {
+      "iso3": "YEM",
+      "continent": "Asia",
+      "n_grid_cells": 21,
+      "effective_area_km2": 454649.30103786377
+    },
+    "Zambia": {
+      "iso3": "ZMB",
+      "continent": "Africa",
+      "n_grid_cells": 30,
+      "effective_area_km2": 754730.1897881214
+    },
+    "Zimbabwe": {
+      "iso3": "ZWE",
+      "continent": "Africa",
+      "n_grid_cells": 18,
+      "effective_area_km2": 390529.1083513278
+    }
+  },
+  "numpy_version": "2.4.4",
+  "shapely_version": "2.1.2"
+}

@@ -1,0 +1,8 @@
+name: temperature-anomalies
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pillow=12.2.0
+  - numpy=2.4.4
+  - shapely=2.1.2
